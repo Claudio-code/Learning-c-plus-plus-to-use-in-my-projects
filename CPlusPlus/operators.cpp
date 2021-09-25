@@ -2,6 +2,11 @@
 
 using namespace std;
 
+char conditionalsIf(char agr)
+{
+    return agr == 'o' ? 'w' : agr;
+}
+
 void characters()
 {
     char test = 'c';
@@ -9,7 +14,7 @@ void characters()
     char value[] = {'h', 'o', 'm', 'e'};
     
     for (char x : value) {
-        concat += x;
+        concat += conditionalsIf(x);
     }
 
     cout << concat + test + "\n";
