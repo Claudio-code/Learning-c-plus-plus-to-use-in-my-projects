@@ -2,6 +2,19 @@
 
 using namespace std;
 
+void characters()
+{
+    char test = 'c';
+    string concat = "";
+    char value[] = {'h', 'o', 'm', 'e'};
+    
+    for (char x : value) {
+        concat += x;
+    }
+
+    cout << concat + test + "\n";
+}
+
 void operators()
 {
     int valueOne, valueTwo;

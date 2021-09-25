@@ -12,5 +12,6 @@ int main()
 {
     helloWord();
     std::cout << variableDeclaration(232) << std::endl;
+    characters();
     operators();
 }
