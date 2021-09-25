@@ -10,5 +10,5 @@ void helloWord()
 int main()
 {
     helloWord();
-    std::cout << variableDeclaration();
+    std::cout << variableDeclaration(232);
 }

@@ -1,8 +1,8 @@
 #include <iostream>
 
-int variableDeclaration()
+int variableDeclaration(int value)
 {
     int yearsOld, yearsOldTwo = 20;
-    yearsOld = 25;
+    yearsOld = value;
     return yearsOld + yearsOldTwo;
 }
