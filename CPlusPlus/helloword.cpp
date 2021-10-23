@@ -1,6 +1,8 @@
 #include<iostream>
 #include "variableDeclaration.cpp"
 #include "operators.cpp"
+#include "methodOverload.cpp"
+
 
 void helloWord()
 {
@@ -14,4 +16,5 @@ int main()
     std::cout << variableDeclaration(232) << std::endl;
     characters();
     operators();
+    methodOverload();
 }
