@@ -2,7 +2,7 @@
 #include "variableDeclaration.cpp"
 #include "operators.cpp"
 #include "methodOverload.cpp"
-
+#include "points.cpp"
 
 void helloWord()
 {
@@ -12,9 +12,10 @@ void helloWord()
 
 int main()
 {
-    helloWord();
-    std::cout << variableDeclaration(232) << std::endl;
-    characters();
-    operators();
-    methodOverload();
+    // helloWord();
+    // std::cout << variableDeclaration(232) << std::endl;
+    // characters();
+    // operators();
+    // methodOverload();
+    learning_how_works_with_vectors();
 }
